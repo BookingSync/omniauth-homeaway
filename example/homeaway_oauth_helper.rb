@@ -4,11 +4,8 @@ require "omniauth-homeaway"
 
 use Rack::Session::Cookie
 
-# The *state* is ignored as HomeAway OAuth2 provider is currently not supporting it.
 use OmniAuth::Builder do
-  provider :homeaway, ENV['HOMEAWAY_CLIENT_ID'], ENV['HOMEAWAY_CLIENT_SECRET'], {
-    provider_ignores_state: true
-  }
+  provider :homeaway, ENV['HOMEAWAY_CLIENT_ID'], ENV['HOMEAWAY_CLIENT_SECRET']
 end
 
 get "/" do
