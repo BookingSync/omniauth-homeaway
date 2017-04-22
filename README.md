@@ -1,8 +1,9 @@
-[![Build Status](https://travis-ci.org/BookingSync/omniauth-homeaway.svg?branch=master)](https://travis-ci.org/BookingSync/omniauth-homeaway)
+[![CI Build
+Status](https://secure.travis-ci.org/BookingSync/omniauth-homeaway.png)](http://travis-ci.org/BookingSync/omniauth-homeaway)
 
 # OmniAuth HomeAway
 
-This is an OmniAuth 1.1 strategy for authenticating to HomeAway. To
+This is an OmniAuth strategy for authenticating to HomeAway. To
 use it, you'll need to sign up for an OAuth2 Application ID and Secret
 on the [HomeAway Application's Registration Page](https://www.homeaway.com/platform/).
 
@@ -18,7 +19,7 @@ Then `bundle install`.
 
 ## Usage
 
-`OmniAuth::Strategies::HomeAway` is simply a Rack middleware. Read the OmniAuth 1.1 docs for detailed instructions: https://github.com/intridea/omniauth.
+`OmniAuth::Strategies::HomeAway` is simply a Rack middleware. Read the OmniAuth docs for detailed instructions: https://github.com/intridea/omniauth.
 
 Here's a quick example, adding the middleware to a Rails app in `config/initializers/omniauth.rb`:
 
@@ -30,7 +31,7 @@ end
 
 ## Supported Rubies
 
-OmniAuth BookingSync is tested under 2.0, 2.1, 2.2, Ruby-head, JRuby.
+OmniAuth BookingSync is tested under 2.2, 2.3, 2.4, Ruby-head, JRuby.
 
 [![CI Build
 Status](https://secure.travis-ci.org/BookingSync/omniauth-homeaway.png)](http://travis-ci.org/BookingSync/omniauth-homeaway)
@@ -41,7 +42,7 @@ Status](https://secure.travis-ci.org/BookingSync/omniauth-homeaway.png)](http://
 
 ## License
 
-Copyright (c) 2016 [BookingSync.com](http://www.bookingsync.com)
+Copyright (c) 2016-2017 [BookingSync.com](https://www.bookingsync.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
